@@ -11,7 +11,7 @@ A simple hello world example in Noir (with a test!)
 1. Install noirup
 
 ```sh
-curl -L noirup.dev | bash
+curl -L https://raw.githubusercontent.com/noir-lang/noirup/refs/heads/main/install | bash
 ```
 
 2. Use noirup to install nargo
@@ -23,7 +23,7 @@ noirup
 ## b. Install barretenberg (proving backend)
 
 ```sh
-curl -L bbup.dev | bash
+curl -L https://raw.githubusercontent.com/AztecProtocol/aztec-packages/refs/heads/master/barretenberg/bbup/install | bash
 bbup
 ```
 
