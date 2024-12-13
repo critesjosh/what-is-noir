@@ -1,0 +1,12 @@
+{
+  "name": "step4",
+  "packageManager": "yarn@4.1.1",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@noir-lang/backend_barretenberg": "^0.36.0",
+    "@noir-lang/noir_js": "^0.36.0"
+  }
+}
