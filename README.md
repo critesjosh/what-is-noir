@@ -3,7 +3,7 @@
 # wtf is zk: a hands-on coding workshop
 ## for Aleph de Verano <3
 
-Slides [here](TODO).
+Slides [here](https://docs.google.com/presentation/d/1PfUpv0lTAfFuS8X3591D66ahnTrmwAn5dfJ1ZpUMWlM/edit).
 
 If you missed the workshop, you should still be able to do and understand everything by just exploring this repo.
 
@@ -30,7 +30,7 @@ Go through each directory from step 1 to step 5. You'll start by learning the ba
 # wtf is zk: workshop de coding
 ## por Aleph de Verano <3
 
-Presentación [aquí](TODO).
+Presentación [aquí](https://docs.google.com/presentation/d/1PfUpv0lTAfFuS8X3591D66ahnTrmwAn5dfJ1ZpUMWlM/edit)
 
 Si no puedes ir al workshop IRL, ya es posible hacer y entender todo simplemente explorando este repositorio.
 
