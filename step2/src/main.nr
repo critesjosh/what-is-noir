@@ -1,5 +1,5 @@
 // passphrase in hex (needed for Field): 0x69206c696b65206e6163686f73
-// pedersen hash of passphrase: 0x14c997b9c9300425780034a5f9794492395fd4ac2df88ec203053bf6c129c528
+// pedersen hash of passphrase: 0x033787e40b56554b03a980f03a55fbd5baf81cf563a228928b1598d34629bfd5
 
 // test command: nargo test --show-output
 
@@ -20,19 +20,19 @@ fn main(member : Person, passphrase: Field, passphraseHash: pub Field) {
 
 #[test]
 fn get_passphrase_hash() {
-    let passphrase: Field = 0x76616d6f206d65737369; // paste this into a hex -> string calculator ;) 
+    let passphrase: Field = 0x69206c696b65206e6163686f73; 
     let passphraseHash = std::hash::pedersen_hash([passphrase,0]);
     println(passphraseHash);
 }
 
 #[test]
 fn test_main() {
-    let passphrase: Field = 0x76616d6f206d65737369; 
-    let passphraseHash: Field = 0x14c997b9c9300425780034a5f9794492395fd4ac2df88ec203053bf6c129c528; 
+    let passphrase: Field = 0x69206c696b65206e6163686f73; 
+    let passphraseHash: Field = 0x033787e40b56554b03a980f03a55fbd5baf81cf563a228928b1598d34629bfd5; 
 
     let cat = Person {
         name: "Cat", 
-        age: 26,
+        age: 27,
     }; 
 
     main(cat, passphrase, passphraseHash);
