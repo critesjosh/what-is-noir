@@ -3,7 +3,8 @@
 //    }
 
 fn main(num: u64) -> pub u64 {
-    let square = sqrt(num);
+    // Safety: this should NOT be used in production
+    let square = unsafe { sqrt(num) };
     assert(square * square == num);
     
     square

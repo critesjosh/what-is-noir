@@ -1,7 +1,7 @@
-const { expect } = require("chai");
-const { ethers } = require("hardhat");
-const fs = require("fs");
-const path = require("path");
+import { expect } from "chai";
+import { ethers } from "hardhat";
+import fs from "fs";
+import path from "path";
 
 describe("verified counter", function () {
   it("updates the counter if the proof is valid", async function () {

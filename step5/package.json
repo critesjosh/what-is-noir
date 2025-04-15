@@ -1,8 +1,19 @@
 {
   "name": "hardhat-project",
+  "type": "module",
   "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.17"
+    "@nomicfoundation/hardhat-verify": "^2.0.13",
+    "@types/chai": "^5.2.1",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.14.1",
+    "chai": "^5.2.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.23.0",
+    "hardhat-gas-reporter": "^2.2.2",
+    "solidity-coverage": "^0.8.14"
   },
   "dependencies": {
     "@nomicfoundation/hardhat-ignition": "^0.15.8",
