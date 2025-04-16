@@ -1,7 +1,6 @@
 [English](#wtf-is-zk-a-hands-on-coding-workshop) | [Español](#wtf-is-zk-workshop-de-coding)
 
 # wtf is zk: a hands-on coding workshop
-## for Aleph de Verano <3
 
 Slides [here](https://docs.google.com/presentation/d/1PfUpv0lTAfFuS8X3591D66ahnTrmwAn5dfJ1ZpUMWlM/edit).
 
@@ -28,7 +27,6 @@ Go through each directory from step 1 to step 5. You'll start by learning the ba
 --
 
 # wtf is zk: workshop de coding
-## por Aleph de Verano <3
 
 Presentación [aquí](https://docs.google.com/presentation/d/1PfUpv0lTAfFuS8X3591D66ahnTrmwAn5dfJ1ZpUMWlM/edit)
 
