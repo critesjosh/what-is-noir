@@ -1,6 +1,4 @@
-[English](#wtf-is-zk-a-hands-on-coding-workshop) | [Español](#wtf-is-zk-workshop-de-coding)
-
-# wtf is zk: a hands-on coding workshop
+# What is zk: a hands-on coding workshop
 
 If you missed the workshop, you should still be able to do and understand everything by just exploring this repo.
 
