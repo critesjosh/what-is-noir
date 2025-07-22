@@ -40,8 +40,6 @@ In `step4` run:
 npm run start
 ```
 
-This will run the `index.js` file. It will run indefinitely so you'll need to `Ctrl C` to stop it.
-
 ## Notes
 
 - If you change the circuit, you will need to update the inputs accordingly.

@@ -9,10 +9,10 @@ async function generateAndVerifyProof() {
 
     const input = { x: 1, y: 2 };
     const { witness } = await noir.execute(input);
-    
+
     console.log("Generating proof...");
     const proof = await backend.generateProof(witness);
-    
+
     const proofHex = '0x' + Array.from(proof.proof)
         .map(byte => byte.toString(16).padStart(2, '0'))
         .join('');
@@ -32,10 +32,17 @@ async function generateAndVerifyProof() {
 
     writeFileSync('proof.json', JSON.stringify(proofData, null, 2));
     console.log("Proof saved to proof.json as hex string");
-    
+
     console.log("Verifying proof...");
     const verified = await backend.verifyProof(proof);
     console.log("Verified:", verified);
+
+    // Clean up and exit
+    await backend.destroy();
+    process.exit(0);
 }
 
-generateAndVerifyProof().catch(console.error);
+generateAndVerifyProof().catch((error) => {
+    console.error(error);
+    process.exit(1);
+});
