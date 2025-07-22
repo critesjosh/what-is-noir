@@ -16,6 +16,7 @@ You can follow the same instructions in [step 1](../step1/README.md) and [step2]
 In the `step3` directory, run
 
 ```sh
+nargo execute
 bb gates -b ./target/step3.json
 ```
 
@@ -25,8 +26,7 @@ This will return something that looks like this:
 {"functions": [
   {
         "acir_opcodes": 7,
-        "circuit_size": 2797,
-        "gates_per_opcode": [2781,0,4,2,3,1,1]
+        "circuit_size": 2797
   }
 ]}
 ```
