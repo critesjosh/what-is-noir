@@ -5,7 +5,7 @@ In this example, we create a football club membership circuit. The circuit will 
 In this example, we learn:
 
 1. Some noir types, eg globals and structs
-2. Hashing (using `poseidon`, but Noir also supports many other hashing algorithms)
+2. Hashing (using `poseidon2`, but Noir also supports many other hashing algorithms)
 3. Printing in tests
 
 ## a: Run the test to get the hash of the passphrase
@@ -19,7 +19,7 @@ nargo test --show-output
 You will see something that looks like this in your terminal:
 
 ```sh
-0x14c997b9c9300425780034a5f9794492395fd4ac2df88ec203053bf6c129c528
+0x0e09d5f0ce509619bc5a58bdc77989a24a3a0b98de930cb6c66cb64051bc1b93
 ```
 
 ## b. Fill out `Prover.toml`
@@ -39,14 +39,14 @@ nargo execute
 In the `step2` dir, run:
 
 ```sh
-bb prove -b ./target/step2.json -w ./target/step2.gz -o ./target/proof
+bb prove -b ./target/step2.json -w ./target/step2.gz -o ./target
 ```
 
-You should see a new file in `./target/proof`. It is in binary format so it might not make human sense to you, but it makes sense to `nargo`!
+You should see a new file in `./target/proof` and `./target/public_inputs`. It is in binary format so it might not make human sense to you, but it makes sense to `nargo`!
 
 ## e. Verify the proof
 
 ```sh
-bb write_vk -b ./target/step2.json -o ./target/vk
+bb write_vk -b ./target/step2.json -o ./target
 bb verify -k ./target/vk -p ./target/proof
 ```
