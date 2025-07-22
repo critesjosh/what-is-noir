@@ -5,7 +5,7 @@ In this example, we create a football club membership circuit. The circuit will 
 In this example, we learn:
 
 1. Some noir types, eg globals and structs
-2. Hashing (using `pedersen`, but Noir also supports many other hashing algorithms)
+2. Hashing (using `poseidon`, but Noir also supports many other hashing algorithms)
 3. Printing in tests
 
 ## a: Run the test to get the hash of the passphrase
