@@ -1,7 +1,3 @@
-[English](#step-1-getting-started-with-noir) | [Español](#nivel-1-cómo-empezar-con-noir)
-
----
-
 # Step 1: Getting started with Noir
 
 A simple hello world example in Noir (with a test!)
