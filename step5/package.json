@@ -2,21 +2,32 @@
   "name": "hardhat-project",
   "type": "module",
   "devDependencies": {
+    "@aztec/bb.js": "0.84.0",
+    "@noir-lang/noir_js": "1.0.0-beta.7",
+    "@noir-lang/noir_wasm": "1.0.0-beta.7",
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
     "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.14",
+    "@nomicfoundation/hardhat-network-helpers": "^1.1.0",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@nomicfoundation/hardhat-verify": "^2.0.13",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
     "@types/chai": "^5.2.1",
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.14.1",
     "chai": "^5.2.0",
-    "ethers": "^5.7.2",
+    "ethers": "^6.15.0",
     "hardhat": "^2.23.0",
     "hardhat-gas-reporter": "^2.2.2",
-    "solidity-coverage": "^0.8.14"
+    "solidity-coverage": "^0.8.14",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "@nomicfoundation/hardhat-ignition": "^0.15.8",
     "dotenv": "^16.4.7"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

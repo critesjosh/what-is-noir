@@ -17,16 +17,22 @@ In this step, we will learn:
 After compiling your circuit and creating a verification key (see [step 1](../step1/README.md)), run this:
 
 ```sh
-bb contract
+nargo compile && bb write_vk -b ./target/step5.json -o ./target --oracle_hash keccak
+bb write_solidity_verifier -k ./target/vk -o ./target/Verifier.sol
 ```
 
-It will create a new `contract.sol` under the `target` directory. Move this into the `contracts` directory.
+It will create a new `Verifier.sol` under the `target` directory. Move this into the `contracts` directory.
+
+```sh
+cp ./target/Verifier.sol ../../contracts/Verifier.sol
+```
 
 ## b. Compile contracts
 
 Inside `step5` run:
 
 ```sh
+yarn install
 npx hardhat compile
 ```
 
