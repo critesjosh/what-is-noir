@@ -19,3 +19,5 @@ Go through each directory from step 1 to step 5. You'll start by learning the ba
 - [Step 3: unconstrained functions and optimizing circuits](./step3/README.md)
 - [Step 4: proving and verifying in noirjs](./step4/README.md)
 - [Step 5: verifying proofs onchain](./step5/README.md)
+
+h/t @catmcgee for the original version of this workshop
